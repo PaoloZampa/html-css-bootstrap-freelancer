@@ -3,3 +3,7 @@
 .debug
 
 /* #endregion debug */
+
+.jumbotron img{
+    max-width: 50%;
+}

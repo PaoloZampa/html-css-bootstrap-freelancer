@@ -13,60 +13,107 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
             crossorigin="anonymous">
 
+        <!-- fontawesome -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css
+            ">
+
         <!-- my css -->
         <link rel="stylesheet" href="./assets/css/style.css">
 
+
     </head>
-    <body>
+    <body class="debug">
 
         <header id="app_header">
 
             <!-- navbar -->
-            <div class="container">
-                <nav class="navbar navbar-expand-md bg-light fixed-top">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">START BOOTSTRAP</a>
-                        <button class="navbar-toggler" type="button"
-                            data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasNavbar"
-                            aria-controls="offcanvasNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="offcanvas offcanvas-end" tabindex="-1"
-                            id="offcanvasNavbar"
-                            aria-labelledby="offcanvasNavbarLabel">
-                            <div class="offcanvas-header">
-                                <h5 class="offcanvas-title"
-                                    id="offcanvasNavbarLabel">Offcanvas</h5>
-                                <button type="button" class="btn-close"
-                                    data-bs-dismiss="offcanvas"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="offcanvas-body">
-                                <ul class="navbar-nav justify-content-end
-                                    flex-grow-1 pe-3">
-                                    <li class="nav-item">
-                                        <a class="nav-link active"
-                                            aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active"
-                                            aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active"
-                                            aria-current="page" href="#">Home</a>
-                                    </li>
-                                </ul>
-                            </div>
+            <nav class="navbar navbar-expand-md bg-light sticky-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                    <button class="navbar-toggler" type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title"
+                                id="offcanvasNavbarLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end
+                                flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active"
+                                        aria-current="page" href="#">Home</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </header>
         <!-- /#app_header -->
 
         <main id="app_main">
+
+            <!-- jumbo -->
+            <section class="jumbotron bg-dark">
+                <div class="container text-center text-white">
+                    <img src="./assets/img/avatar.svg" alt="" class="
+                        pt-5">
+                    <h1 class="p-4">START BOOTSTRAP</h1>
+                    <div class="pb-3">
+                        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                    </div>
+                </div>
+            </section>
+
+            <!-- portfolio -->
+            <section class="portfolio">
+                <div class="container text-center my-4">
+
+                    <!-- title -->
+                    <h1 class="py-3">PORTFOLIO</h1>
+
+                    <!-- img -->
+                    <div class="row row-cols-md-2 row-cols-lg-3">
+                        <div class="col-12 my-3">
+                            <img class="img-fluid " src="./assets/img/game.png" alt="">
+                        </div>
+                        <div class="col-12 my-3">
+                            <img class="img-fluid" src="./assets/img/cabin.png" alt="">
+                        </div>
+                        <div class="col-12 my-3">
+                            <img class="img-fluid" src="./assets/img/cake.png" alt="">
+                        </div>
+                        <div class="col-12 my-3">
+                            <img class="img-fluid" src="./assets/img/circus.png" alt="">
+                        </div>
+                        <div class="col-12 my-3">
+                            <img class="img-fluid" src="./assets/img/safe.png" alt="">
+                        </div>
+                        <div class="col-12 my-3">
+                            <img class="img-fluid" src="./assets/img/submarine.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
 
         </main>
         <!-- /#app_main -->
