@@ -1,31 +1,38 @@
 /* #region debug */
 
-.debug{}
+.debug {}
 
 /* #endregion debug */
 
 /* #region utilites */
 
-:root{
---main: #1abc9c;
---dark: #3a546d;
---darker: #2c3e50;
+:root {
+    --main: #1abc9c;
+    --dark: #3a546d;
+    --darker: #2c3e50;
 }
 
-.t_darker{
+.t_darker {
     color: var(--darker);
+}
+
+.bg_primary {
+    background-color: var(--main);
 }
 
 /* #endregion utilites */
 
 /* header */
 
-#app_header, div#offcanvasNavbar{
+#app_header,
+div#offcanvasNavbar,
+.bottom_footer {
     background-color: var(--darker);
 }
 
 /* main */
 
-.jumbotron, .about{
+.jumbotron,
+.about {
     background-color: var(--main);
 }
