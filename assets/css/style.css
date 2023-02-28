@@ -16,8 +16,16 @@
     color: var(--darker);
 }
 
+.t_primary{
+    color: var(--main);
+}
+
 .bg_primary {
     background-color: var(--main);
+}
+
+.bg_dark{
+    background-color: var(--dark);
 }
 
 /* #endregion utilites */
