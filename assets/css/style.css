@@ -16,7 +16,7 @@
     color: var(--darker);
 }
 
-.t_primary{
+.t_primary {
     color: var(--main);
 }
 
@@ -24,8 +24,12 @@
     background-color: var(--main);
 }
 
-.bg_dark{
+.bg_dark {
     background-color: var(--dark);
+}
+
+.bg_darker {
+    background-color: var(--darker);
 }
 
 /* #endregion utilites */
@@ -39,6 +43,18 @@ div#offcanvasNavbar,
 }
 
 /* main */
+
+.hr_large {
+    width: 165px;
+    height: 3px;
+    border-radius: 15px;
+}
+
+.hr_small {
+    width: 140px;
+    height: 3px;
+    border-radius: 15px;
+}
 
 .jumbotron,
 .about {
