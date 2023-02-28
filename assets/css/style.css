@@ -64,3 +64,7 @@ div#offcanvasNavbar,
 .about {
     background-color: var(--main);
 }
+
+textarea#floatingTextarea2 {
+    height: 250px;
+}
