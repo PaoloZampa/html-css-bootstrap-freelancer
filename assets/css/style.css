@@ -42,6 +42,10 @@ div#offcanvasNavbar,
     background-color: var(--darker);
 }
 
+.custom_toggler {
+    border-color: white;
+}
+
 /* main */
 
 .hr_large {
