@@ -1,9 +1,31 @@
 /* #region debug */
 
-.debug
+.debug{}
 
 /* #endregion debug */
 
-.jumbotron img{
-    max-width: 50%;
+/* #region utilites */
+
+:root{
+--main: #1abc9c;
+--dark: #3a546d;
+--darker: #2c3e50;
+}
+
+.t_darker{
+    color: var(--darker);
+}
+
+/* #endregion utilites */
+
+/* header */
+
+#app_header, div#offcanvasNavbar{
+    background-color: var(--darker);
+}
+
+/* main */
+
+.jumbotron, .about{
+    background-color: var(--main);
 }
